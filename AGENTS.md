@@ -9,7 +9,7 @@ Claude Code 會另外自動載入 `.claude/skills/yt-playlist-manager/SKILL.md`�
 
 ## 這個專案是什麼
 
-一個 YouTube／Spotify 播放清單管理 Agent-Skill：Agent 當大腦（解讀需求、標註藝人、決定順序），`scripts/`（Python）是單一引擎，透過兩個平台轉接器負責 API 讀寫與呼叫數最少的重排計算。
+Playlist Manager 是一個 YouTube／Spotify 播放清單管理 Agent-Skill：Agent 當大腦（解讀需求、標註藝人、決定順序），`scripts/`（Python）是單一引擎，透過兩個平台轉接器負責 API 讀寫與呼叫數最少的重排計算。
 
 ## 使用者要求整理播放清單時
 

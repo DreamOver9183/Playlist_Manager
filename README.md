@@ -36,7 +36,7 @@
 打開 AI 助手的聊天視窗，貼上這一句：
 
 ```
-請幫我使用 https://github.com/DreamOver9183/YouTube-Playlist-Custom-Agent-skill 這個 skill
+請幫我使用 https://github.com/DreamOver9183/Playlist_Manager 這個 skill
 ```
 
 AI 會自己下載、安裝需要的套件，並讀懂這個工具的使用說明。

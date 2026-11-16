@@ -1,5 +1,5 @@
 """
-yt_tool.py — Background tool for the playlist Agent-Skill (YouTube and Spotify).
+yt_tool.py — Background tool for Playlist Manager, the playlist Agent-Skill (YouTube and Spotify).
 
 This script is designed to be executed by AI Agents, NOT the human user.
 It provides simple CLI commands to interact with the YouTube API.
@@ -1641,7 +1641,7 @@ def _record_run_result(changes_path: Path, payload: dict[str, Any]) -> None:
 
 
 def main():
-    parser = argparse.ArgumentParser(description="YouTube Playlist Agent-Skill Background Tool")
+    parser = argparse.ArgumentParser(description="Playlist Manager Agent-Skill Background Tool (YouTube and Spotify)")
     parser.add_argument("--credentials", type=Path, help="Path to client_secret.json (optional)")
     subparsers = parser.add_subparsers(dest="command", required=True)
 

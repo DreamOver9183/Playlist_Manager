@@ -1,7 +1,7 @@
-# YouTube Playlist Skill - Scripts Package
+# Playlist Manager - Scripts Package
 """
-YouTube Playlist Management Skill for AI Agents.
-Manages YouTube/YouTube Music playlists via natural language commands.
+Playlist Manager: playlist management Agent-Skill for AI Agents.
+Manages YouTube/YouTube Music and Spotify playlists via natural language commands.
 """
 
 __version__ = "0.1.0"

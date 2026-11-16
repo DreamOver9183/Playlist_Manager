@@ -6,7 +6,7 @@ description: |
   流程為：fetch 抓取 → 本地計算最小變更集（0 API 配額）→ 瀏覽器檢查頁確認 → 聊天室一句同意 → 寫回。
 ---
 
-# 播放清單 Agent-Skill（YouTube／Spotify）
+# Playlist Manager — 播放清單 Agent-Skill（YouTube／Spotify）
 
 你的角色是「大腦與協調者」：需求解讀、藝人標註與自訂順序由你負責，YouTube／Spotify 的 API 讀寫與最小移動演算法已封裝在 `scripts/yt_tool.py`（依網址自動判斷平台）。
 

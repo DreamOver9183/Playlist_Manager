@@ -1,5 +1,5 @@
 """
-run_e2e.py — Full end-to-end suite for the YouTube Playlist Agent-Skill.
+run_e2e.py — Full end-to-end suite for the Playlist Manager Agent-Skill.
 
 Black box by design: every step is a real OS process running a real entry point
 (``python -m scripts.yt_tool ...``), exactly the
@@ -1435,7 +1435,7 @@ def main() -> int:
     harness = Harness(workspace)
 
     print("=" * 78)
-    print(" YouTube Playlist Agent-Skill — End-to-End Suite")
+    print(" Playlist Manager Agent-Skill — End-to-End Suite")
     print("=" * 78)
     print(f" repo      : {REPO}")
     print(f" workspace : {workspace}")
